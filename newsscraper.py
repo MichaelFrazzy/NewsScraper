@@ -6,7 +6,6 @@ import sys
 import json
 from time import mktime
 from datetime import datetime
-
 import feedparser as fp
 import newspaper
 from newspaper import Article
@@ -137,9 +136,13 @@ def run(config, limit=4):
             count, news_paper = _handle_fallback(company, value, count, limit)
         data["newspapers"][company] = news_paper
 
-    # Finally it saves the articles as a JSON-file.
+    # saves the articles as a JSON-file.
+    
+    current_date = datetime.now().strftime("%m_%d_%Y")
+    output_filename = f"scraped_articles_{current_date}.json"
+    
     try:
-        with open("scraped_articles.json", "w") as outfile:
+        with open(output_filename, "w") as outfile:
             json.dump(data, outfile, indent=2)
     except Exception as err:
         print(err)
