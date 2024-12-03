@@ -30,8 +30,32 @@
     "rss": "http://feeds.washingtonpost.com/rss/world",
     "link": "https://www.washingtonpost.com/"
   },
-  "wsj": {
-    "rss": "https://feeds.a.dj.com/rss/RSSWorldNews.xml",
-    "link": "https://www.wsj.com"
+  "coindesk": {
+    "rss": "https://www.coindesk.com/arc/outboundfeeds/rss",
+    "link": "https://www.coindesk.com"
+  },
+  "cointelegraph": {
+    "rss": "https://cointelegraph.com/editors_pick_rss", # editors pick, for all feeds use https://cointelegraph.com/rss"
+    "link": "https://www.cointelegraph.com"
+  },
+  "bitcoin_magazine": {
+    "rss": "https://bitcoinmagazine.com/.rss/full",
+    "link": "https://bitcoinmagazine.com/"
+  },
+  "cryptoslate": {
+    "rss": "https://cryptoslate.com/feed",
+    "link": "https://cryptoslate.com"
+  },
+  "cryptonews": {
+    "rss": "https://cryptonews.com/news/feed/",
+    "link": "https://cryptonews.com"
+  },
+  "smart_liquidity": {
+    "rss": "https://smartliquidity.info/feed",
+    "link": "https://smartliquidity.info/all-news"
+  },
+  "cryptopotato": {
+    "rss": "https://smartliquidity.info/feed",
+    "link": "https://cryptopotato.com/feed"
   }
 }
