@@ -1,6 +1,6 @@
 # NewsScraper - Scrape any newspaper automatically
 
-Below is the README and credits for the original boilerplate used for initial testing, the script has been reworked and expanded. So far added extensive logging, AI integration support, and a focus on crypto news sources and their eventual summarization/preparation. The below README will be reworked for a production repo once additional testing is completed. As a result of the new focus, the NewsPaper.json file has also been modified versus the directions shown below, though all links should work in this format.
+Below is the README and credits for the original boilerplate used for initial testing, the script has been reworked and expanded. So far added extensive logging, AI integration support, optimization changes, and a focus on crypto news sources and their eventual summarization/preparation. The below README will be reworked for a production repo once additional testing is completed. As a result of the new focus, the NewsPaper.json file has also been modified versus the directions shown below, though all links should work in this format.
 
 This is a python script for automatically scraping the most recent articles from any news site.
 
